@@ -1,0 +1,21 @@
+{
+    "name": "myyunlian/helloworld",
+    "description": "Hello world!",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lionel",
+            "email": "github@szcxo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apple\\iPhone\\": "src/Apple/iPhone",
+            "Apple\\iPad\\": "src/Apple/iPad"
+        }
+    }
+}
